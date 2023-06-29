@@ -27,16 +27,15 @@
 			font-family: 'Advent Pro', sans-serif;
 			padding: 8px;
 			text-align: center;
-			margin: 7px auto;
-			width: fit-content;
+			margin: 10px 0px;
 		}
 
 		.navMenu a {
-			color: #272727;
+			color: #d4d4d4;
 			text-decoration: none;
 			text-transform: uppercase;
 			display: inline-block;
-			padding: 6px;
+			padding: 6px 5%;
 		}
 
 		.background {
@@ -50,7 +49,7 @@
 
 		.navMenu a:hover {
 
-			color: #d09c0b;
+			color: #1d292f;
 		}
 	</style>
 </head>
@@ -58,21 +57,11 @@
 <body>
 
 	<nav class="navMenu  border">
-		<a id="home" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-house"></i> Home</a>
-		<a id="inbox" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-inbox"></i> Inbox</a>
-		<a id="week" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-calendar-week"></i> Planner</a>
-		<a id="projects" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-briefcase"></i> Projects</a>
-		<a id="tasks" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-list-check"></i> Tasks</a>
-		<a id="business" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-money-bill-wave"></i> Business</a>
-		<a id="knowledge" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-lightbulb"></i> Knowledge</a>
-		<a id="topics" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-layer-group"></i> Topics</a>
-		<a id="notes" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-book"></i> Notes</a>
-		<a id="media" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-bookmark"></i> Media</a>
-		<a id="resourses" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-wrench"></i> Resourses</a>
-		<a id="lifewiki" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-heart"></i> Lifewiki</a>
-
-
-
+		<a id="Home" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-house"></i> Home</a>
+		<a id="Subpage" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-file"></i> Subpage</a>
+		<a id="Projects" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-signs-post"></i> Projects</a>
+		<a id="Timeline" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-bars-staggered"></i> Timeline</a>
+		<a id="Archive" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-box-archive"></i> Archive</a>
 	</nav>
 
 
@@ -86,32 +75,16 @@
 
 		function navigate(id) {
 
-			if (id == 'home')
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "inbox")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "week")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "month")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "projects")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "business")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "tasks")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "knowledge")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "topics")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "notes")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "media")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "resourses")
-				window.open("https://example.com3", '_blank').focus();
-			else if (id == "lifewiki")
-				window.open("https://example.com", '_blank').focus();
+			if (id == 'Home')
+				window.open("https://www.notion.so/misaki39/Personal-Home-Page-0eced85c4fbb43f8a71db13539d9cbd3?pvs=4", '_blank').focus();
+			else if (id == "Subpage")
+				window.open("https://www.notion.so/misaki39/3bc89fb130784002aece36b7e697a443?v=be69a6a828c5489fa36b80fc70903998&pvs=4", '_blank').focus();
+			else if (id == "Projects")
+				window.open("https://www.notion.so/misaki39/b83eca09b67c4125b642fd7271bf36f2?v=68dce3b2fe294f5c87a78cc7e55aee6a&pvs=4", '_blank').focus();
+			else if (id == "Timeline")
+				window.open("https://www.notion.so/misaki39/7ff543f953464757ad3ee8c626e0f55e?v=d294fb53fdb84130ae863bf3073c87e2&pvs=4", '_blank').focus();
+			else if (id == "Archive")
+				window.open("https://www.notion.so/misaki39/500d83e001314214b5704d19ae8748c8?v=38c2726dbf864e639acff619018853b6&pvs=4", '_blank').focus();
 
 		}
 	</script>
